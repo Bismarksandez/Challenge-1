@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 /*Gives style for the contents button*/
-.header div {
+.header nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 /*List type*/
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 /*Describes the display of the contents(hyperlinks)*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,7 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/*Gives font color for each paragraphs*/
+/*Gives font size for each paragraphs*/
 p {
     font-size: 16px;
 }
@@ -64,8 +64,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*Give style for the content 'Search engine optimisation'*/
-.search-engine-optimization {
+/*Give style for the contents*/
+.part {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,60 +73,24 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*Size of the image for Search engine optimisation*/
-.search-engine-optimization img {
+/*Size of the images in content*/
+.part img {
     max-height: 200px;
 }
-/*Box model and font size for the heading 'Search engine optimisation'*/
-.search-engine-optimization h2 {
+/*Box model and font size for the headings in content*/
+.part h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*Placement of the image for 'search engine optimisation*/
+/*Placement of the image for 'search engine optimisation and social media marketing*/
 .float-left {
     float: left;
     margin-right: 25px;
-}
-/*Box model and style for the content online-reputation-management*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*Size of the image for online-reputation-management*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-/*Size and font of  the heading online-reputation-management*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 /*Image placement for the content of online-reputation-management*/
 .float-right {
     float: right;
     margin-left: 25px;
-}
-/*Box model and style for the content social-media-marketing*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*Size of the image for social-media-marketing*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-/*Font size and box model for the heading social-media-marketing*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 /*Style and placement of the sub-contents*/
 .benefits {
@@ -140,49 +104,17 @@ p {
     background-color: #0071ad;
 }
 /*font color and boxing of subcontent lead-generation*/
-.benefit-lead {
+.side {
     margin-bottom: 32px;
     color: #ffffff;
 }
 /*Placement of the heading lead-generation*/
-.benefit-lead h3 {
+.side h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 /*Placement of the image for lead-generation*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*font color and boxing of subcontent brand-awareness*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*Placement of the heading brand-awareness*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*Placement of the image for brand-awareness*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*font color and boxing of subcontent cost-management*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*Placement of the heading cost-management*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*Placement of the image for cost-management*/
-.benefit-cost img {
+.side img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
