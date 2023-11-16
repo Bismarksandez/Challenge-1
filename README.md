@@ -13,3 +13,9 @@ N/A
 
 ## License
 N/A
+
+## Code Source
+Given in the curriculum.
+
+## Location
+Github.com/Bismarksandez/Horiseon-Digital-Marketing
